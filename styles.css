@@ -154,6 +154,7 @@ nav {
 }
 
 .imagem-deus-criacao {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -227,6 +228,7 @@ nav {
 }
 
 .imagem-maria {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -294,6 +296,7 @@ nav {
 }
 
 .imagem-jesus {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -360,6 +363,7 @@ nav {
 }
 
 .imagem-apocalipse {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -426,6 +430,7 @@ nav {
 }
 
 .imagem-mandamentos {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -492,6 +497,7 @@ nav {
 }
 
 .imagem-pecados {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -569,6 +575,7 @@ nav {
 }
 
 .imagem-espirito {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -635,6 +642,7 @@ nav {
 }
 
 .imagem-eucaristia {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -701,6 +709,7 @@ nav {
 }
 
 .imagem-pena {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -743,6 +752,7 @@ nav {
 }
 
 .imagem-arcanjos {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -787,6 +797,7 @@ nav {
 }
 
 .imagem-oracoes {
+    max-width: 100%;
     width: 500px;
     height: auto;
     border-radius: 500px;
@@ -829,34 +840,99 @@ nav {
 }
 
 @media (max-width: 480px) {
-.texto h1 {
-        font-size: 28px; /* Diminuído de 50px para caber no celular */
+
+     .texto h1 {
+        font-size: 28px;
         padding: 0 10px;
     }
 
-    .texto h2, .texto h3 {
-        font-size: 20px; /* Diminuído de 30px */
+    .texto h2,
+    .texto h3 {
+        font-size: 20px;
     }
 
     .texto p {
-        font-size: 18px; /* Texto mais legível para mobile */
+        font-size: 18px;
         padding: 0 15px;
     }
 
     nav {
         padding: 10px;
-        gap: 15px; /* Aumenta o espaço para não clicar no botão errado */
+        gap: 15px;
     }
 
     .meu-botao {
-        width: 80%; /* Botões ficam largos e fáceis de tocar */
+        width: 80%;
         justify-content: center;
-        font-size: 18px; /* Letra um pouco maior no botão */
+        font-size: 18px;
     }
 
     .imagem-jesus-maria {
-        width: 90%; /* Garante um respiro nas bordas da imagem */
-        border-radius: 20px; /* Borda um pouco menor combina mais com celular */
+        width: 90%;
+        border-radius: 20px;
+    }
+
+    h1,
+    .pagina-genesis h1,
+    .pagina-maria h1,
+    .pagina-jesus h1,
+    .pagina-apocalipse h1,
+    .pagina-mandamentos h1,
+    .pagina-pecados h1,
+    .pagina-espiritosanto h1,
+    .pagina-eucaristia h1,
+    .pagina-anjosarcanjos h1,
+    .pagina-oracoes h1 {
+        font-size: 26px !important;
+        margin-bottom: 20px !important;
+        padding: 0 10px;
+    }
+
+
+    h2,
+    h3,
+    .pagina-oracoes h2 {
+        font-size: 22px !important;
+        padding: 0 10px;
+    }
+
+    p,
+    .pagina-genesis p,
+    .pagina-maria p,
+    .pagina-jesus p,
+    .pagina-apocalipse p,
+    .pagina-mandamentos p,
+    .pagina-pecados p,
+    .pagina-espiritosanto p,
+    .pagina-eucaristia p,
+    .pagina-anjosarcanjos p,
+    .pagina-oracoes p {
+        font-size: 18px !important;
+        line-height: 1.5 !important;
+        padding: 10px !important;
+    }
+
+    img,
+    .imagem-deus-criacao,
+    .imagem-maria,
+    .imagem-jesus,
+    .imagem-apocalipse,
+    .imagem-mandamentos,
+    .imagem-pecados,
+    .imagem-espirito,
+    .imagem-eucaristia,
+    .imagem-pena,
+    .imagem-arcanjos,
+    .imagem-oracoes {
+        width: 85% !important;
+        border-radius: 20px !important;
+    }
+
+    [class^="botao-voltar"] {
+        display: block;
+        width: 60%;
+        margin: 20px auto;
+        font-size: 18px;
     }
 }
 
@@ -867,5 +943,6 @@ nav {
 
 
     
+
 
 
