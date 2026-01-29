@@ -68,6 +68,7 @@ body {
 }
 
 .imagem-jesus-maria {
+    max-width: 100%;
     width: 800px;
     height: auto;
     border-radius: 30px;
@@ -827,46 +828,13 @@ nav {
     transition: background 0.5s ease;
 }
 
-
-
 @media (max-width: 480px) {
-body {
-font-size: 15px;
-}
 h1 {
-font-size: 1.5em;
-}
-h2 {
-font-size: 1.3em;
-}
-.container {
-padding: 0 10px;
-}
-/* Botões em 1 coluna no celular */
-.grid-botoes {
-grid-template-columns: 1fr;
-gap: 10px;
-}
-.botao {
-width: 100%;
-padding: 15px;
-font-size: 16px;
-margin: 5px 0;
-text-align: center;
-}
-.conteudo {
-padding: 15px;
-}
-header {
-padding: 20px 10px;
-}
-footer {
-font-size: 14px;
-padding: 15px;
-}
-.btn-voltar {
-width: 100%;
-text-align: center;
-padding: 12px;
-}
+    font-size: 1.5rem; /* Diminui um pouco o título no celular */
+  }
+  
+  /* Faz os botões ficarem maiores para facilitar o toque com o dedo */
+  button, .botao {
+    width: 45%; /* Coloca dois botões por linha no celular */
+  }
 }
