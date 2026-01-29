@@ -829,12 +829,43 @@ nav {
 }
 
 @media (max-width: 480px) {
-h1 {
-    font-size: 1.5rem; /* Diminui um pouco o título no celular */
-  }
-  
-  /* Faz os botões ficarem maiores para facilitar o toque com o dedo */
-  button, .botao {
-    width: 45%; /* Coloca dois botões por linha no celular */
-  }
+.texto h1 {
+        font-size: 28px; /* Diminuído de 50px para caber no celular */
+        padding: 0 10px;
+    }
+
+    .texto h2, .texto h3 {
+        font-size: 20px; /* Diminuído de 30px */
+    }
+
+    .texto p {
+        font-size: 18px; /* Texto mais legível para mobile */
+        padding: 0 15px;
+    }
+
+    nav {
+        padding: 10px;
+        gap: 15px; /* Aumenta o espaço para não clicar no botão errado */
+    }
+
+    .meu-botao {
+        width: 80%; /* Botões ficam largos e fáceis de tocar */
+        justify-content: center;
+        font-size: 18px; /* Letra um pouco maior no botão */
+    }
+
+    .imagem-jesus-maria {
+        width: 90%; /* Garante um respiro nas bordas da imagem */
+        border-radius: 20px; /* Borda um pouco menor combina mais com celular */
+    }
 }
+
+
+
+
+
+
+
+    
+
+
